@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    height: 100vh;
+    position: relative;
+
+}
+
+section#telefone{
+    position: absolute;
+    height: 500px;
+    width: 222px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../imagens/cell-phone.png') no-repeat top center;
+    
+}
